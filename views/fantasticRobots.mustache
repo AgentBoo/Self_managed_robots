@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Robotic Force </title>
+    <link rel="stylesheet" href = "../public/user.css">
+  </head>
+  <body>
+    <header class="c-header f-header s-header">
+        <a href = "/index" class="c-header--a f-header--a s-header--a"> Index </a>
+      <!-- <form class="c-credForm" action="/login" method="post">
+        <label for="name"> Name </label>
+        <input type="text" name="username" id="username" placeholder = "Poopy">
+        <label for="password"> Password </label>
+        <input type="password" name="password" id="password" placeholder = "Poop">
+        <button class="btn btnLogin" type="submit"> Log In </button>
+      </form> -->
+    </header>
+
+    <main>
+      <div class="c-docTitle s-docTitle">
+        <hr>
+        <h1 class="c-docTitle__title"> Fantastic Robots </h1>
+        <hr>
+      </div>
+<!--
+      <div class="c-othersList s-othersList">
+        <div class="cs-placeholder"></div>
+        <p> Monca Slepice</p>
+        <p> Nezamestnana </p>
+      </div> -->
+
+      <div>
+      {{#robot}}
+        <img src = "{{avatar}}" class="c-robot__avatar">
+        <h1 class="c-robotAvatar__name"> {{name}} </h1>
+        <p>
+          <span class="c-robotBio__rightborder"> {{address.city}}, {{address.country}} </span>
+          <span class="c-robotBio__leftborder"> {{job}}, {{company}} </span>
+          <span class="c-robotBio__leftborder--red"> {{^job}} Available for Hire {{/job}} </span>
+        </p>
+        <p class="c-robotBio__bottommargin">
+          <span class="c-robotBio__rightborder"> {{email}} </span>
+          <span class="c-robotBio__leftborder"> {{phone}} </span>
+        </p>
+
+        <div class="c-robotExtra__flex">
+          <div class="c-robotExtra__cat">
+            <span><strong> Education </strong></span>
+            <br>
+            <span><strong> Skills </strong></span>
+          </div>
+
+          <div class="c-robotExtra__items">
+            <span> {{university}} </span>
+            <br>
+          {{#skills}}
+            <span> {{.}} </span>
+          {{/skills}}
+          </div>
+        </div>
+
+
+      {{/robot}}
+      </div>
+
+      <!-- <div class="c-mainUser s-mainUser">
+        <p> I am a placeholder </p>
+        <p class="cfs-centerPiece"> I am the main user</p>
+        <p> I am a placeholder2 </p>
+      </div> -->
+    </main>
+  </body>
+</html>

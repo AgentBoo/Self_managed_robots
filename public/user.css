@@ -1,0 +1,175 @@
+body{
+  color: grey;
+  font-family: Arial;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+main{
+  margin: 0 100px;
+}
+
+h3, p{
+  margin: 2px;
+}
+
+/* NOTE: Credentials in the header */
+.c-header{
+  box-sizing: border-box;
+  padding: 20px 80px;
+  position: fixed;
+    top: 0;
+  width: 100%;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.f-header{
+  color: white;
+}
+
+.s-header{
+  background-color: black;
+}
+
+.c-header--a{
+  margin: 0 50px 0 0;
+}
+
+.f-header--a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.f-header--a:hover{
+  color: #82e0da;
+}
+/* NOTE: Main */
+.c-docTitle{
+  margin: 160px auto 70px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.f-docTitle{
+  text-align: center;
+}
+
+.c-divEntry{
+  margin: 40px 50px;
+}
+
+
+hr{
+  border: none;
+  border-top: solid grey;
+  position: relative;
+    top: 10px;
+
+  flex-basis: 33%;
+}
+
+.c-docTitle__title{
+  margin: 0 30px;
+  text-align: center;
+}
+
+/*.c-othersList{
+  margin: 10px 30px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.f-othersList{
+  overflow-x: scroll;
+}
+
+.s-othersList{
+
+}
+
+.cs-placeholder{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  border-radius: 50%;
+}*/
+
+/* NOTE: Individual Robot profile */
+.c-robot__avatar{
+  float: left;
+  border: solid grey thin;
+  border-radius: 50%;
+  margin: 0 50px 19px;
+}
+
+.c-robotBio__name{
+}
+
+.c-robotBio__rightborder{
+  border-right: solid grey thin;
+  padding-right: 5px;
+}
+
+.c-robotBio__leftborder{
+  padding-left: 6px;
+}
+
+.c-robotBio__leftborder--red{
+  color: red;
+}
+
+.c-robotBio__bottommargin{
+  margin-bottom: 70px;
+}
+
+.c-robotExtra__flex{
+  position: relative;
+    left: 145px;
+
+  display: flex;
+}
+
+.c-robotExtra__cat{
+  margin: 5px 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+
+.c-robotExtra__items{
+  margin: 5px 10px;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+/*.c-mainUser{
+  margin: 0 auto;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+}
+
+.s-mainUser{
+  background-color: #bee0de;
+}
+
+.cfs-centerPiece{
+  color: #dd3081;
+  margin: 20px;
+  padding: 20px;
+
+  align-self: center;
+}*/

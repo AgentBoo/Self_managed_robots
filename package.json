@@ -1,0 +1,30 @@
+{
+  "name": "DailyProject15",
+  "version": "1.0.0",
+  "main": "data.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.10.8",
+    "mustache": "^2.3.0",
+    "mustache-express": "^1.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentBoo/Create-a-user-directory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AgentBoo/Create-a-user-directory/issues"
+  },
+  "homepage": "https://github.com/AgentBoo/Create-a-user-directory#readme",
+  "description": ""
+}
